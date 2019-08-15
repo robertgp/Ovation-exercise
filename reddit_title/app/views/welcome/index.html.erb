@@ -1,0 +1,11 @@
+<head>
+<h1 class="head">Click the button to get the title of the first post on reddit</h1>
+</head>
+<body>
+    <div class="title">
+        <p><%= @first_title %></p>
+    </div>
+    <div class="button">
+        <%= button_to 'Click me', action: "get_first_title"%>
+    </div>
+</body>
